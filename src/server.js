@@ -11,8 +11,8 @@ app.use(cors());
 
 const db = mysql.createConnection({
     host: 'git clone https://github.com/WDCAP2-EmployeeProfiling/employee-profiling-hub',
-    user: 'root',
-    password: '',
+    user: 'admin',
+    password: 'testing123',
     database: 'profiling',
 });
 
